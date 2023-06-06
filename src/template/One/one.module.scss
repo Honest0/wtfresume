@@ -1,0 +1,32 @@
+@import '../../theme/colors';
+
+.insideCon {
+    padding: 60px;
+}
+
+.underName {
+    width: 250px;
+    border-top: 2px solid #03a9f4;
+    opacity: 0.7;
+}
+
+.box {
+    margin: 17px 0;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.image {
+    position: absolute;
+    right: 60px;
+    top: 55px;
+}

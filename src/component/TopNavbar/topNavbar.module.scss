@@ -1,0 +1,274 @@
+@import '../../theme/colors';
+
+.TopNavbar {
+    width: 200mm;
+    background: #252525;
+    position: fixed;
+    height: 80px;
+    top: 60px;
+    left: 50%;
+    z-index: 3;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    display: flex;
+}
+
+.item {
+    color: #787878;
+    cursor: pointer;
+}
+
+.item:hover {
+    color: #efefef;
+}
+
+.bgComplete {
+    width: 100%;
+    height: 100%;
+    animation: color-me-in 0.5s;
+    background: rgba(0, 0, 0, 0.5);
+    // transition-delay: .8s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.bgComplete2 {
+    animation: color-me-in 0.5s;
+}
+@keyframes color-me-in {
+    0% {
+        background: rgba(0, 0, 0, 0);
+    }
+    100% {
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
+.colorCircle {
+    width: 35px;
+    height: 35px !important;
+    margin: 0 0 0 13px;
+    border-radius: 100%;
+}
+
+.topNavbarCirclePicker {
+    padding: 10px;
+    color: #444;
+    display: inline-block;
+}
+.colorCircleItem {
+    width: 16px;
+    height: 16px;
+    border: 8px solid;
+    margin: 7px 4px;
+    cursor: pointer;
+    border-radius: 100%;
+    float: left;
+    box-sizing: content-box;
+}
+.colorCircleItemActive {
+    background: #fff !important;
+    border: 8px solid;
+    // border: 8px dashed;
+    -webkit-box-shadow: 0px 0px 8px 1px #8a8a8a;
+    -moz-box-shadow: 0px 0px 8px 1px #8a8a8a;
+    box-shadow: 0px 0px 8px 1px #8a8a8a;
+}
+.colorCircleItem:hover {
+    -webkit-box-shadow: 0px 0px 8px 1px #8a8a8a;
+    -moz-box-shadow: 0px 0px 8px 1px #8a8a8a;
+    box-shadow: 0px 0px 8px 1px #8a8a8a;
+}
+.colorInput input {
+    width: 95px;
+    height: 25px;
+    font-size: 16px;
+    padding: 0 5px;
+    margin: 10px 5px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    outline: 0;
+    box-sizing: content-box;
+}
+
+.tonNavbarFelx1 {
+    flex: 0.8;
+    padding: 10px;
+    text-align: center;
+}
+.tonNavbarFelx2 {
+    flex: 1.9;
+    padding: 10px;
+    text-align: center;
+}
+
+.tonNavbarBorderRight {
+    border-right: 2px solid #424242;
+}
+
+.topNavbarColor {
+    height: 100%;
+}
+
+.topNavbarTypography {
+    height: 100%;
+}
+
+.typoContent {
+    padding: 10px;
+}
+
+.typoContentItem {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.typoContentItem:hover {
+    color: #222 !important;
+}
+
+// .topNavbarTypography select {
+//     width: 130px;
+//     height: 30px;
+//     cursor: pointer;
+//     background: #fff;
+//     border: 0;
+//     font-size: 14px;
+// }
+
+// .topNavbarTypography option {
+//     padding: 5px 0;
+//     font-size: 14px;
+// }
+
+.topNavbarSection {
+    height: 100%;
+}
+
+.topNavbarSave {
+    height: 100%;
+}
+
+.topNavbarLoad {
+    height: 100%;
+}
+
+.topNavbarPreview {
+    height: 100%;
+}
+
+.topNavbarDownlaod {
+    height: 100%;
+}
+
+.topPart {
+    height: 60%;
+}
+
+.topPart i {
+    font-size: 32px;
+}
+
+.bottomPart {
+    height: 40%;
+}
+
+.sectionBox {
+    display: flex;
+    color: $black_light;
+}
+.sectionLeft {
+    flex: 1;
+    padding: 10px 20px;
+}
+.sectionRight {
+    flex: 1;
+    border-left: 1px dashed $border;
+    padding: 10px 20px;
+}
+.sectionItem {
+    margin: 5px 0;
+}
+.sectionItemText {
+    margin: 0px 0px 0 15px;
+    vertical-align: super;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.saveModal {
+    padding: 0 20px;
+    text-align: center;
+}
+.saveModal h3 {
+    font-size: 30px;
+}
+.saveModal p {
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 28px;
+}
+.saveModalBtn {
+    width: 100%;
+    padding: 15px 0;
+    // height: 60px;
+    // background: red;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 3px;
+    background-image: linear-gradient(to right, #02aab0 0%, #00cdac 51%, #02aab0 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+.saveModalBtn:hover {
+    background-position: right center;
+}
+
+.loadModal {
+    padding: 0 20px;
+    text-align: center;
+}
+.loadModal h3 {
+    font-size: 30px;
+}
+.loadModal p {
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 28px;
+}
+.loadModal span {
+    font-size: 14px;
+    color: red;
+    position: relative;
+    width: 100%;
+    top: 0px;
+}
+
+.uploadModalBtn {
+    width: 100%;
+}
+.uploadModalBtn label {
+    width: 100%;
+    display: block;
+    padding: 15px 0;
+    margin: 50px 0 0 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 3px;
+    background-image: linear-gradient(to right, #02aab0 0%, #00cdac 51%, #02aab0 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+.uploadModalBtn label:hover {
+    background-position: right center;
+}
+.uploadModalFileType {
+    display: none;
+}

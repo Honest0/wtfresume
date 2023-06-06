@@ -1,0 +1,36 @@
+.nav {
+    height: 60px;
+    background: #1976d2;
+    background: linear-gradient(90deg, #1976d2 0%, #1565c0 100%);
+    font-family: 'Roboto';
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    box-shadow: 0px 4px 10px rgba(141, 159, 179, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+.logo {
+    width: 210px;
+}
+
+.navbarNav {
+    color: #fff !important;
+    border-color: #fff !important;
+    outline: 0 !important;
+}
+.navItem {
+    margin: 12px 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.navItem a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.navItem a:hover {
+    background-color: #08aeea;
+    background-image: linear-gradient(90deg, #08aeea 0%, #2af598 10%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

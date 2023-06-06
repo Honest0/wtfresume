@@ -1,0 +1,19 @@
+{
+    "presets": ["next/babel"],
+    "plugins": [
+        ["module-resolver", {
+            "extensions": [".js", ".jsx", ".es", ".es6", ".ts", ".tsx",  ".mjs"],
+            "root": ["."],
+            "alias": {
+              "@component": "./src/component",
+              "@template": "./src/template",
+              "@lib": "./src/lib",
+              "@types": "./src/types",
+              "@colors": "./src/theme/colors",
+              "@constant": "./src/constant"
+            }
+        }],
+        ["styled-components", { "ssr": true }]
+        
+    ]
+}
