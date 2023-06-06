@@ -72,6 +72,9 @@
     "ts-jest": "^25.2.1",
     "typescript": "^3.8.3"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "husky": {
     "hooks": {}
   },
